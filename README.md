@@ -1,20 +1,20 @@
-<h1 id="seagull">seagull</h1>
+<h1 id="seagrey">seagrey</h1>
 
-<p>A vim theme inspired by seagulls and the sea.</p>
+<p>A vim theme inspired by the sea.</p>
 
 <h2 id="screenshots">screenshots</h2>
 
 <table>
-<tr></tr><tr><td align="center"><strong>seagull-<br />light</strong></td>
-<td align="center"><img src="/img/screenshot-seagull-light.png" alt="screenshot of the seagull-light vim theme" width="288" /> <img src="/img/screenshot-seagull-dark.png" alt="screenshot of the seagull-dark vim theme" width="288" /></td>
-<td align="center"><strong>seagull-<br />dark</strong></td></tr>
+<tr></tr><tr><td align="center"><strong>seagrey-<br />light</strong></td>
+<td align="center"><img src="/img/screenshot-seagrey-light.png" alt="screenshot of the seagrey-light vim theme" width="288" /> <img src="/img/screenshot-seagrey-dark.png" alt="screenshot of the seagrey-dark vim theme" width="288" /></td>
+<td align="center"><strong>seagrey-<br />dark</strong></td></tr>
 </table>
 
 <h2 id="setup">setup</h2>
 
 <h3 id="installation">installation</h3>
 
-<p>While themes can be installed manually (by placing a <a href="https://github.com/nightsense/seagull/tree/master/colors">theme file</a> in <code class="highlighter-rouge">~/.vim/colors/</code>), a <strong>plugin helper</strong> is recommended.</p>
+<p>While themes can be installed manually (by placing a <a href="https://github.com/nightsense/seagrey/tree/master/colors">theme file</a> in <code class="highlighter-rouge">~/.vim/colors/</code>), a <strong>plugin helper</strong> is recommended.</p>
 
 <p>If you don’t have a preferred helper, consider trying <a href="https://github.com/junegunn/vim-plug">vim-plug</a>, which can be installed with:</p>
 
@@ -23,10 +23,10 @@
 </code></pre>
 </div>
 
-<p>To install seagull via vim-plug, add the following to the top of your <code class="highlighter-rouge">vimrc</code>:</p>
+<p>To install seagrey via vim-plug, add the following to the top of your <code class="highlighter-rouge">vimrc</code>:</p>
 
 <div class="highlighter-rouge"><pre class="highlight"><code>call plug#begin('~/.vim/plugged')
-Plug 'nightsense/seagull'
+Plug 'nightsense/seagrey'
 call plug#end()
 </code></pre>
 </div>
@@ -35,11 +35,11 @@ call plug#end()
 
 <h3 id="activation">activation</h3>
 
-<p>To activate the seagull theme, add one of the following lines to your <code class="highlighter-rouge">vimrc</code>:</p>
+<p>To activate the seagrey theme, add one of the following lines to your <code class="highlighter-rouge">vimrc</code>:</p>
 
 <ul>
-  <li><code class="highlighter-rouge">colorscheme seagull-light</code></li>
-  <li><code class="highlighter-rouge">colorscheme seagull-dark</code></li>
+  <li><code class="highlighter-rouge">colorscheme seagrey-light</code></li>
+  <li><code class="highlighter-rouge">colorscheme seagrey-dark</code></li>
 </ul>
 
 <p>Note that the <code class="highlighter-rouge">background</code> setting doesn’t affect this theme.</p>
@@ -50,11 +50,11 @@ call plug#end()
 
 <h2 id="terminal-vim">terminal vim</h2>
 
-<p>See the <a href="https://github.com/nightsense/nightshell">nightshell</a> repository, which allows seagull to be used in a variety of terminal applications.</p>
+<p>See the <a href="https://github.com/nightsense/nightshell">nightshell</a> repository, which allows seagrey to be used in a variety of terminal applications.</p>
 
 <h2 id="palette">palette</h2>
 
-<p>seagull consists of 16 colours:</p>
+<p>seagrey consists of 16 colours:</p>
 
 <ul>
   <li>8 theme-distinct <strong>base colours</strong>, which meet the <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-73-head">3:1 ISO standard</a> for text/background contrast ratio</li>
