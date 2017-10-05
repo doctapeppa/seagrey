@@ -60,8 +60,8 @@ call plug#end()
   <li>8 theme-distinct <strong>base colours</strong>, which meet the <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/visual-audio-contrast-contrast.html#visual-audio-contrast-contrast-73-head">3:1 ISO standard</a> for text/background contrast ratio</li>
   <li>8 standard <strong>accent colours</strong> (shared by members of the “nightsense theme family”), for syntax highlighting
     <ul>
-      <li>hue selection was made at the scale of 1/12 (30°) colour wheel intervals, followed by 1/12 subinterval adjustments</li>
-      <li>value and saturation were tuned for light backgrounds, then saturation was lowered for dark backgrounds</li>
+      <li>hue selection at the scale of 1/12 (30°) colour wheel intervals, followed by 1/12 subinterval adjustments</li>
+      <li>value and saturation tuned for light backgrounds, then saturation lowered for dark backgrounds</li>
       <li>again, ISO contrast ratio was observed</li>
     </ul>
   </li>
