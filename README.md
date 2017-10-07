@@ -5,9 +5,18 @@
 <h2 id="screenshots">screenshots</h2>
 
 <table>
-<tr></tr><tr><td align="center"><strong>seagrey-<br />light</strong></td>
-<td align="center"><img src="/img/screenshot-seagrey-light.png" alt="screenshot of the seagrey-light vim theme" width="288" /> <img src="/img/screenshot-seagrey-dark.png" alt="screenshot of the seagrey-dark vim theme" width="288" /></td>
-<td align="center"><strong>seagrey-<br />dark</strong></td></tr>
+  <thead>
+    <tr>
+      <th style="text-align: center">seagrey-dark</th>
+      <th style="text-align: center">seagrey-light</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center"><img src="/img/screenshot-seagrey-dark.png" alt="screenshot of the seagrey-dark vim theme" width="288" /></td>
+      <td style="text-align: center"><img src="/img/screenshot-seagrey-light.png" alt="screenshot of the seagrey-light vim theme" width="288" /></td>
+    </tr>
+  </tbody>
 </table>
 
 <blockquote>
