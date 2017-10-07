@@ -5,7 +5,7 @@
 <h2 id="screenshots">screenshots</h2>
 
 <table>
-<tr><td align="center"><strong>seagrey-<br />dark</strong></td><td align="center"><strong>seagrey-<br />light</strong></td></tr>
+<tr><td align="center"><strong>seagrey-dark</strong></td><td align="center"><strong>seagrey-light</strong></td></tr>
 <tr>
 <td><img src="/img/screenshot-seagrey-dark.png" alt="screenshot of the seagrey-dark vim theme" width="288" /></td>
 <td align="center"><img src="/img/screenshot-seagrey-light.png" alt="screenshot of the seagrey-light vim theme" width="288" /></td>
