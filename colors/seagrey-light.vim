@@ -69,9 +69,9 @@ endif
 " run theme-setting script if using terminal vim
 if !has('gui_running')
   execute 'silent !/bin/sh $HOME/.nightshell/seagrey-light'
-"  autocmd CursorMoved * execute 'if !exists("colors_name") |
-"        \ let colors_name = "seagrey-light" |
-"        \ colorscheme seagrey-light | endif'
+  autocmd CursorMoved * execute 'if !exists("colors_name") |
+        \ let colors_name = "seagrey-light" |
+        \ colorscheme seagrey-light | endif'
 endif
 
 " clear old theme, activate new
