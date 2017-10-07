@@ -1,6 +1,6 @@
 <h1 id="seagrey">seagrey</h1>
 
-<p>A vim theme inspired by the blue-greys of an overcast sea.</p>
+<p>A vim theme inspired by the blue-grey of an overcast sea.</p>
 
 <h2 id="screenshots">screenshots</h2>
 
