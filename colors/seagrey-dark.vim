@@ -8,22 +8,22 @@
 "=== SET VARIABLES ============================================================
 
 " GUI colours
-let s:g0 = '1d242b'
-let s:g1 = '303840'
-let s:g2 = '3f4a54'
-let s:g3 = '616b75'
-let s:g4 = '888e94'
-let s:g5 = 'b8bbbf'
-let s:g6 = 'e1e6eb'
+let s:g0 = '1d252b'
+let s:g1 = '303940'
+let s:g2 = '3f4b54'
+let s:g3 = '616d75'
+let s:g4 = '888f94'
+let s:g5 = 'b8bcbf'
+let s:g6 = 'd7dde0'
 let s:g7 = 'ffffff'
-let s:g8 = 'e05f5f'
-let s:g9 = 'd48146'
-let s:gA = 'bda84f'
-let s:gB = '639467'
-let s:gC = '4a948e'
-let s:gD = '6097bf'
-let s:gE = '9a80bf'
-let s:gF = 'd47b95'
+let s:g8 = 'd45959'
+let s:g9 = 'c97b42'
+let s:gA = 'd4b659'
+let s:gB = '5c8a60'
+let s:gC = '508a80'
+let s:gD = '5688ab'
+let s:gE = '8b779e'
+let s:gF = 'c97591'
 
 " terminal colours
 let s:t0 = '00'
@@ -45,21 +45,21 @@ let s:tF = '14'
 
 " neovim colours
 if has('nvim')
-  let g:terminal_color_0 =  '#1d242b'
-  let g:terminal_color_1 =  '#e05f5f'
-  let g:terminal_color_2 =  '#639467'
-  let g:terminal_color_3 =  '#bda84f'
-  let g:terminal_color_4 =  '#6097bf'
-  let g:terminal_color_5 =  '#9a80bf'
-  let g:terminal_color_6 =  '#4a948e'
-  let g:terminal_color_7 =  '#b8bbbf'
-  let g:terminal_color_8 =  '#616b75'
-  let g:terminal_color_9 =  '#d48146'
-  let g:terminal_color_10 = '#303840'
-  let g:terminal_color_11 = '#3f4a54'
-  let g:terminal_color_12 = '#888e94'
-  let g:terminal_color_13 = '#e1e6eb'
-  let g:terminal_color_14 = '#d47b95'
+  let g:terminal_color_0 =  '#1d252b'
+  let g:terminal_color_1 =  '#d45959'
+  let g:terminal_color_2 =  '#5c8a60'
+  let g:terminal_color_3 =  '#d4b659'
+  let g:terminal_color_4 =  '#5688ab'
+  let g:terminal_color_5 =  '#8b779e'
+  let g:terminal_color_6 =  '#508a80'
+  let g:terminal_color_7 =  '#b8bcbf'
+  let g:terminal_color_8 =  '#616d75'
+  let g:terminal_color_9 =  '#c97b42'
+  let g:terminal_color_10 = '#303940'
+  let g:terminal_color_11 = '#3f4b54'
+  let g:terminal_color_12 = '#888f94'
+  let g:terminal_color_13 = '#d7dde0'
+  let g:terminal_color_14 = '#c97591'
   let g:terminal_color_15 = '#ffffff'
 endif
 
@@ -94,9 +94,9 @@ endfun
 
 " cursor + status line + selected tab
 cal <sid>h('Cursor'           , s:g0 , s:g4 , s:t0 , s:t4 , 'none'      , ''  )
-cal <sid>h('StatusLine'       , s:g0 , s:g3 , s:t0 , s:t3 , 'none'      , ''  )
-cal <sid>h('StatusLineTerm'   , s:g0 , s:g3 , s:t0 , s:t3 , 'none'      , ''  )
-cal <sid>h('TabLineSel'       , s:g0 , s:g3 , s:t0 , s:t3 , 'none'      , ''  )
+cal <sid>h('StatusLine'       , s:g0 , s:g4 , s:t0 , s:t4 , 'none'      , ''  )
+cal <sid>h('StatusLineTerm'   , s:g0 , s:g4 , s:t0 , s:t4 , 'none'      , ''  )
+cal <sid>h('TabLineSel'       , s:g0 , s:g4 , s:t0 , s:t4 , 'none'      , ''  )
 cal <sid>h('TermCursor'       , s:g0 , s:g4 , s:t0 , s:t4 , 'none'      , ''  )
 
 " line numbers

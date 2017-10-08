@@ -9,21 +9,21 @@
 
 " GUI colours
 let s:g0 = 'ffffff'
-let s:g1 = 'e1e6eb'
-let s:g2 = 'b8bbbf'
-let s:g3 = '888e94'
-let s:g4 = '616b75'
-let s:g5 = '3f4a54'
-let s:g6 = '303840'
-let s:g7 = '1d242b'
-let s:g8 = 'eb3a3a'
+let s:g1 = 'd7dde0'
+let s:g2 = 'b8bcbf'
+let s:g3 = '888f94'
+let s:g4 = '616d75'
+let s:g5 = '3f4b54'
+let s:g6 = '303940'
+let s:g7 = '1d252b'
+let s:g8 = 'eb3b3b'
 let s:g9 = 'e07426'
-let s:gA = 'c9af42'
-let s:gB = '25942e'
-let s:gC = '0c9489'
+let s:gA = 'ebbf3b'
+let s:gB = '289e31'
+let s:gC = '289e8a'
 let s:gD = '3083bf'
-let s:gE = '8760bf'
-let s:gF = 'e05e85'
+let s:gE = '8f69b5'
+let s:gF = 'e05e8a'
 
 " terminal colours
 let s:t0 = '00'
@@ -46,21 +46,21 @@ let s:tF = '14'
 " neovim colours
 if has('nvim')
   let g:terminal_color_0 =  '#ffffff'
-  let g:terminal_color_1 =  '#eb3a3a'
-  let g:terminal_color_2 =  '#25942e'
-  let g:terminal_color_3 =  '#c9af42'
+  let g:terminal_color_1 =  '#eb3b3b'
+  let g:terminal_color_2 =  '#289e31'
+  let g:terminal_color_3 =  '#ebbf3b'
   let g:terminal_color_4 =  '#3083bf'
-  let g:terminal_color_5 =  '#8760bf'
-  let g:terminal_color_6 =  '#0c9489'
-  let g:terminal_color_7 =  '#3f4a54'
-  let g:terminal_color_8 =  '#888e94'
+  let g:terminal_color_5 =  '#8f69b5'
+  let g:terminal_color_6 =  '#289e8a'
+  let g:terminal_color_7 =  '#3f4b54'
+  let g:terminal_color_8 =  '#888f94'
   let g:terminal_color_9 =  '#e07426'
-  let g:terminal_color_10 = '#e1e6eb'
-  let g:terminal_color_11 = '#b8bbbf'
-  let g:terminal_color_12 = '#616b75'
-  let g:terminal_color_13 = '#303840'
-  let g:terminal_color_14 = '#e05e85'
-  let g:terminal_color_15 = '#1d242b'
+  let g:terminal_color_10 = '#d7dde0'
+  let g:terminal_color_11 = '#b8bcbf'
+  let g:terminal_color_12 = '#616d75'
+  let g:terminal_color_13 = '#303940'
+  let g:terminal_color_14 = '#e05e8a'
+  let g:terminal_color_15 = '#1d252b'
 endif
 
 
@@ -94,9 +94,9 @@ endfun
 
 " cursor + status line + selected tab
 cal <sid>h('Cursor'           , s:g0 , s:g4 , s:t0 , s:t4 , 'none'      , ''  )
-cal <sid>h('StatusLine'       , s:g0 , s:g3 , s:t0 , s:t3 , 'none'      , ''  )
-cal <sid>h('StatusLineTerm'   , s:g0 , s:g3 , s:t0 , s:t3 , 'none'      , ''  )
-cal <sid>h('TabLineSel'       , s:g0 , s:g3 , s:t0 , s:t3 , 'none'      , ''  )
+cal <sid>h('StatusLine'       , s:g0 , s:g4 , s:t0 , s:t4 , 'none'      , ''  )
+cal <sid>h('StatusLineTerm'   , s:g0 , s:g4 , s:t0 , s:t4 , 'none'      , ''  )
+cal <sid>h('TabLineSel'       , s:g0 , s:g4 , s:t0 , s:t4 , 'none'      , ''  )
 cal <sid>h('TermCursor'       , s:g0 , s:g4 , s:t0 , s:t4 , 'none'      , ''  )
 
 " line numbers
@@ -171,9 +171,9 @@ cal <sid>h('SpellCap'         , ''   , ''   , s:t0 , s:t9 , 'undercurl' , s:g9)
 cal <sid>h('Title'            , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
 
 " YELLOW for highlighted elements
-cal <sid>h('DiffText'         , s:g6 , s:gA , s:t6 , s:tA , 'none'      , ''  )
-cal <sid>h('Search'           , s:g6 , s:gA , s:t6 , s:tA , 'none'      , ''  )
-cal <sid>h('Todo'             , s:g6 , s:gA , s:t6 , s:tA , 'none'      , ''  )
+cal <sid>h('DiffText'         , s:g5 , s:gA , s:t5 , s:tA , 'none'      , ''  )
+cal <sid>h('Search'           , s:g5 , s:gA , s:t5 , s:tA , 'none'      , ''  )
+cal <sid>h('Todo'             , s:g5 , s:gA , s:t5 , s:tA , 'none'      , ''  )
 
 " GREEN for action elements
 cal <sid>h('Conditional'      , s:gB , ''   , s:tB , ''   , ''          , ''  )
