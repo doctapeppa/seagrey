@@ -80,6 +80,7 @@ set background=light
 augroup ThemeSet
   autocmd!
   autocmd CursorMoved * execute 'if !exists("colors_name") |
+    \ let colors_name = "seagrey-light" |
     \ colorscheme seagrey-light | else |
     \ augroup ThemeSet | autocmd! | augroup END | endif'
 augroup END
