@@ -1,3 +1,11 @@
+**This repository has been superseded by [vimspectr](https://github.com/nightsense/vimspectr).**
+
+.
+
+.
+
+.
+
 <h1 id="seagrey">seagrey</h1>
 
 <p>A vim theme inspired by the sea.</p>
