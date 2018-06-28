@@ -1,4 +1,4 @@
-**This repository has been superseded by [vimspectr](https://github.com/nightsense/vimspectr).**
+**Note: this repository is archived; my active blue-tinted vim theme is [snow](https://github.com/nightsense/snow).**
 
 .
 
